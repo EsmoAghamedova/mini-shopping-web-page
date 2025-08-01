@@ -1,7 +1,4 @@
 import { useTheme } from '../context/ThemeContext';
-
-
-
 export default function Footer() {
 
   const { background, textColor } = useTheme();

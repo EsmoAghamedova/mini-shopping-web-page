@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import Footer from './Footer'; // Import Footer component
+import Footer from './Footer'; 
 
 const Cart: React.FC = () => {
   const { cart, resetCart } = useCart();

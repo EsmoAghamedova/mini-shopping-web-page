@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom'; // Remove BrowserRouter as Router
+import { Routes, Route } from 'react-router-dom'; 
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
-import Cart from './components/Cart'; // Import Cart
+import Cart from './components/Cart'; 
 import { ThemeContext } from './context/ThemeContext';
 
 const App: React.FC = () => {
